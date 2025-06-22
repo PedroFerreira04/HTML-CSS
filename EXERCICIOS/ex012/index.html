@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas!</h1>
+    <hr>
+    <p>Tente abrir esse site em vários dispositivos diferntes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/FOTO-P.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-M.png" type="image/png">
+        <img src="imagens/foto-G.png" alt="foto grande">
+    </picture>
+    <h1>Vamos aprender a reproduzir audio em HTML5</h1>
+    <audio preload="metadata" loop controls>
+        <source src="midia/calcinhapreta-dois-amoresduas-paixoes-0f5793e4.mp3" type="audio/mpeg">
+        <p>infelizmente seu navegador não aceita reprodução de audio, deixaremos o link do audio</p>
+        <a href="midia/calcinhapreta-dois-amoresduas-paixoes-0f5793e4.mp3"></a>
+    </audio>
+    <h1>Videos no HTML</h1>
+    <p>Este video está hospedado localmente no meu proprio servidor</p>
+    <video src="midia2/meuvideo.mp4.mp4" width="500" height="400" poster="imagens/tumb.webp" controls loop></video>
+
+    <h1>Adicionando video externos</h1>
+    <p>Aqui adiconaremos um video do nosso queridissimo professor gustavo guanabar!</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/KwFrvsnxPW0?si=d4pcuNK-A8K7MtS2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

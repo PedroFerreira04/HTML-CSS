@@ -1,0 +1,59 @@
+body{
+    background-image: linear-gradient(to right,#2A8C82,#41BFB3,#9BF2EA);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+header{
+    background-color: #275950;
+    padding: 10px;
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+}
+h1#menu{
+    background-color: #275950;
+    color: aliceblue;
+}
+main{
+    background-color: #275950;
+    padding: 10px;
+    width: 700px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.405);
+}
+article{
+    background-color: aliceblue;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    margin: 2px;
+    padding: 4px;
+}
+nav{
+    background-color: grey;
+    padding: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.471);
+}
+nav > a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+nav > a:hover{
+    text-decoration: underline;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+footer > p {
+    margin: 0px;
+}
+div#bola{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 100px;
+}

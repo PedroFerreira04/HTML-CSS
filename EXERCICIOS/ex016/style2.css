@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: black;
+  color: aliceblue;
+  font-family: "Geologic", sans-serif;
+}
+
+h1 {
+  font-size: 3.5em;
+  text-align: center;
+}
+
+.animador {
+  position: relative;
+  display: inline-block;
+  color: #ff8800;
+  height: 1.25em;
+  overflow: hidden;
+  vertical-align: bottom;
+}
+
+.animador span {
+  display: block;
+  text-align: center;
+  animation: animarPalavras 10s steps(4) infinite;
+}
+
+/* pausa animação ao passar o mouse */
+.animador:hover span {
+  animation-play-state: paused;
+}
+
+/* Animação: 4 palavras, cada uma visível por 2.5s = 10s total */
+@keyframes animarPalavras {
+  0%   { transform: translateY(0%); }
+  100% { transform: translateY(-400%); }
+}
