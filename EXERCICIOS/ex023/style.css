@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(196, 249, 231);
+
+}
+
+.quadrado {
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background-color: lightgray;
+    margin: 3px 7px;
+
+}
+
+#q1{
+    background-color: skyblue;
+}
+
+#q2{
+    background-image: linear-gradient(to right,#D90707,#A60303,#590202 );
+
+}
+
+#q3{
+    background-image: url(imagens/pattern003.png);
+
+}
